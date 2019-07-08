@@ -1,0 +1,16 @@
+
+{{ define "main" }}
+    <h1 class="baseCaption">{{.Title}}</h1>
+        {{ if isset .Params "bannerimage" }}
+            <div class="single-banner-wrap">
+                <img src="{{ $.Site.BaseURL }}/images/{{ .Params.bannerImage }}" alt="{{ .Params.bannerImage }}" class="banner-img">
+            </div>
+        {{ end }}
+        <div class="singleWrap">
+            {{ with .Content }}
+                <div class="contentText">
+                    {{- . -}}
+                </div>
+            {{ end }}
+        </div>
+{{ end }}

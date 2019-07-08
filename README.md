@@ -1,1 +1,1 @@
-# hugo-gerelo
+Engine: static

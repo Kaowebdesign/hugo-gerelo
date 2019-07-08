@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Решения on Джерело</title>
+    <link>/solution/</link>
+    <description>Recent content in Решения on Джерело</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Wed, 05 Jun 2019 09:46:25 +0300</lastBuildDate>
+    
+	<atom:link href="/solution/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>сувенирный шоколад с логотипом</title>
+      <link>/solution/chocolate/</link>
+      <pubDate>Wed, 05 Jun 2019 09:46:25 +0300</pubDate>
+      
+      <guid>/solution/chocolate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Мясо, рыба, сыр</title>
+      <link>/solution/meal/</link>
+      <pubDate>Wed, 05 Jun 2019 09:40:31 +0300</pubDate>
+      
+      <guid>/solution/meal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Косметика</title>
+      <link>/solution/cosmetics/</link>
+      <pubDate>Wed, 05 Jun 2019 09:40:18 +0300</pubDate>
+      
+      <guid>/solution/cosmetics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Бытовая химия</title>
+      <link>/solution/household/</link>
+      <pubDate>Wed, 05 Jun 2019 09:39:52 +0300</pubDate>
+      
+      <guid>/solution/household/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Автомобильные товары</title>
+      <link>/solution/autotov/</link>
+      <pubDate>Wed, 05 Jun 2019 09:39:31 +0300</pubDate>
+      
+      <guid>/solution/autotov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Сельскохозяйственная химия</title>
+      <link>/solution/chemistry/</link>
+      <pubDate>Wed, 05 Jun 2019 09:39:17 +0300</pubDate>
+      
+      <guid>/solution/chemistry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Семена</title>
+      <link>/solution/seeds/</link>
+      <pubDate>Wed, 05 Jun 2019 09:38:48 +0300</pubDate>
+      
+      <guid>/solution/seeds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Соки</title>
+      <link>/solution/juice/</link>
+      <pubDate>Wed, 05 Jun 2019 09:38:27 +0300</pubDate>
+      
+      <guid>/solution/juice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Майонез, кетчуп, соус</title>
+      <link>/solution/sauce/</link>
+      <pubDate>Wed, 05 Jun 2019 09:38:11 +0300</pubDate>
+      
+      <guid>/solution/sauce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Кондитерские изделия</title>
+      <link>/solution/pastry/</link>
+      <pubDate>Wed, 05 Jun 2019 09:37:47 +0300</pubDate>
+      
+      <guid>/solution/pastry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Специи</title>
+      <link>/solution/spice/</link>
+      <pubDate>Wed, 05 Jun 2019 09:37:16 +0300</pubDate>
+      
+      <guid>/solution/spice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Снеки</title>
+      <link>/solution/snack/</link>
+      <pubDate>Wed, 05 Jun 2019 09:36:53 +0300</pubDate>
+      
+      <guid>/solution/snack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Крупы</title>
+      <link>/solution/cereals/</link>
+      <pubDate>Wed, 05 Jun 2019 09:36:20 +0300</pubDate>
+      
+      <guid>/solution/cereals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Спортивное питание</title>
+      <link>/solution/sportpit/</link>
+      <pubDate>Wed, 05 Jun 2019 09:36:00 +0300</pubDate>
+      
+      <guid>/solution/sportpit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Сухое молоко</title>
+      <link>/solution/milk/</link>
+      <pubDate>Wed, 05 Jun 2019 09:35:49 +0300</pubDate>
+      
+      <guid>/solution/milk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Чай</title>
+      <link>/solution/tea/</link>
+      <pubDate>Wed, 05 Jun 2019 09:35:31 +0300</pubDate>
+      
+      <guid>/solution/tea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Кофе, какао и 3 в 1</title>
+      <link>/solution/coffe/</link>
+      <pubDate>Wed, 05 Jun 2019 09:35:13 +0300</pubDate>
+      
+      <guid>/solution/coffe/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

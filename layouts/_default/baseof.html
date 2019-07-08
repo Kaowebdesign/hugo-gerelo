@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    {{ partial "head.html" . }}
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                {{ partial "header.html" . }}
+                <main id="main" class="main-wrap">
+                    {{ partial "tabletmenu.html" . }}
+                    {{ if .IsHome }}
+                        {{ partial "banner.html" . }}
+                    {{ end }}
+                    {{ if not .IsHome}}
+                        {{ partial "breadcamps" . }}
+                    {{ end }}
+                    {{ block "main" . }}{{ end }}
+                    {{ if .IsHome }}
+                        <div class="bannerBottom wow animate fadeIn" data-wow-delay="1s">
+                            <h3 class="bannerBottom__title">{{ .Params.about_title }}</h3>
+                            <div class="bannerBottom__wrap">
+                                <p class="bannerBottom__text">{{ .Params.about1 }}</p>
+                                <p class="bannerBottom__text">{{ .Params.about2 }}</p>
+                                <p class="moreLink__wrap"> 
+                                    <a href="/company" class="moreLink">{{ .Params.about_link }}</a>
+                                </p>
+                            </div>
+                        </div>
+                    {{ end }}
+                    {{ partial "form.html" . }}
+                </main>
+            </div>
+            {{ partial "footer.html" . }}
+        </div>
+        {{ partial "scripts.html" . }}
+    </body>
+</html>

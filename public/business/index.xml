@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Бизнес on Джерело</title>
+    <link>/business/</link>
+    <description>Recent content in Бизнес on Джерело</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Wed, 05 Jun 2019 14:03:13 +0300</lastBuildDate>
+    
+	<atom:link href="/business/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Проволока</title>
+      <link>/business/wire/</link>
+      <pubDate>Wed, 05 Jun 2019 14:03:13 +0300</pubDate>
+      
+      <guid>/business/wire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Оборудование сервисные услуги</title>
+      <link>/business/serv/</link>
+      <pubDate>Wed, 05 Jun 2019 14:02:57 +0300</pubDate>
+      
+      <guid>/business/serv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Оборудование б.у Европа</title>
+      <link>/business/europe/</link>
+      <pubDate>Wed, 05 Jun 2019 14:02:43 +0300</pubDate>
+      
+      <guid>/business/europe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Оборудование производство</title>
+      <link>/business/production/</link>
+      <pubDate>Wed, 05 Jun 2019 14:02:24 +0300</pubDate>
+      
+      <guid>/business/production/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Фасовка хорека</title>
+      <link>/business/packing/</link>
+      <pubDate>Wed, 05 Jun 2019 14:01:45 +0300</pubDate>
+      
+      <guid>/business/packing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

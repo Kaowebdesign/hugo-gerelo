@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Продукція on Джерело</title>
+    <link>/ua/prods/</link>
+    <description>Recent content in Продукція on Джерело</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ua</language>
+    
+	<atom:link href="/ua/prods/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

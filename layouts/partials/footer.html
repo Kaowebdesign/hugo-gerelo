@@ -1,0 +1,57 @@
+<footer class="footer">
+    <!-- <h3>&copy; this is footer, 2019</h3> -->
+    <div class="footerWrap">
+        <div class="footer__left">
+            <ul class="menu footerMenu">
+                {{ range .Site.Menus.nav}}
+                    {{ if not .HasChildren }}
+                        <li class="menu__item footerMenu__item">
+                            <a class="menu__link" href="{{ .URL }}">{{ .Name | safeHTML }}</a>
+                        </li> 
+                    {{ end }}
+                {{ end }}
+            </ul>
+            <ul class="footerMenu__mult">
+                {{ range .Site.Menus.nav}}
+                    {{ if .HasChildren }}
+                        <li class="menu__item footerMenu__item footerMenu_margin">
+                            <a class="menu__link" href="{{ .URL }}">{{ .Name | safeHTML }}</a>
+                            <ul class="footerSubMenu">
+                                {{ range .Children }}
+                                    <li class="footerSubMenu__item">
+                                        <a class="footerSubMenu__link" href="{{ .URL }}">{{ .Name }}</a>
+                                    </li>
+                                {{ end }}
+                            </ul>
+                        </li>
+                    {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+        <div class="footer__right">
+            <div>
+                {{ partial "socials.html" . }}
+            </div>
+            <div class="footerTel footerSocIcon">
+                <h3 class="footerTel__title">{{ $.Site.Params.footer.departament }}</h3>
+                {{ range $value := $.Site.Params.tel }}
+                    <p class="footerTel__text"> {{ $value }}</p>
+                {{ end }}
+            </div>
+            <div class="footerMail footerSocIcon">
+                {{ range $value := $.Site.Params.mail }}
+                    <p class="footerMail__text"> {{ $value }}</p>
+                {{ end }}
+            </div>
+            <div class="footerMap footerSocIcon footerSocIcon_map">
+                <p class="footerMap__text footerMap_bold">{{ $.Site.Params.footer.companyname }}</p>
+                <p class="footerMap__text">{{ $.Site.Params.footer.companyplace }}</p>
+                <a href="{{ $.Site.Params.footer.showmaplink }}" class="footerMap__text">{{ $.Site.Params.footer.showmapbutton }}</a>
+            </div>
+        </div>
+    </div>
+    <div class="footerBottom">
+        <p class="footer__copy footerBottom__text"> 2019 &copy; <a href="/" class="footerBottom__link footerBottom_bold">gerelo.com.ua</a> &nbsp;{{ $.Site.Params.footer.copyright }}</p>
+        <p class="footerBottom__text"><img src="{{ $.Site.BaseURL }}/images/zina.png" alt="Zina design">&nbsp;Створення сайту: &copy; 2019 &nbsp;<a href="/" class="footerBottom__link"> Студія «Зіна дизайн»</a>, Дніпро</p>
+    </div>
+</footer>

@@ -1,0 +1,50 @@
+<div class="form-wrap wow animate zoomIn" id="contactus" data-wow-delay="1s">
+    <h2 class="form__title">{{ $.Site.Params.form.formcaption }}</h2>
+    <form action="https://api.zina.com.ua/send_form" method="post" class="contact-form ajax form">
+        <div class="form__left">
+            <input type="text" name="field_first-name" required="required" class="form__input form__inputs" placeholder="{{ $.Site.Params.form.inputname }}">
+            <input type="tel" name="field_phone" required="required" id="form_tel" class="form__input form__inputs" placeholder="+38 (___) _____">
+            <input type="email" name="field_email" required="required" class="form__input form__inputs" placeholder="E-mail">
+        </div>
+        <div class="form__right">
+            <textarea  name="field_site_description" maxlength="300" class="form__inputs form__textarea" placeholder="{{ $.Site.Params.form.inputtextarea }}" rows="5"></textarea>
+            <div class="hidden-inputs">
+                <input type="hidden" name="form_title" value="Обратная связь"/>
+                <input type="hidden" name="mail_to" value="gerelodpua@gmail.com"/>
+                <input type="hidden" name="label_field_first-name" value="Ваше имя"/>
+                <input type="hidden" name="label_field_phone" value="Ваш контактный телефон"/>
+                <input type="hidden" name="label_field_email" value="Ваш e-mail"/>
+                <input type="hidden" name="label_field_site_description" value="Ваш коммент" />
+                <input type="text" name="username" style="display: none"/>
+            </div>
+            <button type="submit" class="form__submit btn_submit">{{ $.Site.Params.form.sendbutton }}</button>
+        </div>
+    </form>
+    <script type="text/x-jstemplate" id="alert">
+        <div class="modal pop-up fade alert<%= (typeof css_class != 'undefined'?' '+css_class:'')%>" tabindex="-1" role="dialog">
+          <div class="modal-dialog pop-up__wrp" role="document">
+            <div class="modal-content pop-up__cont">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть"><span aria-hidden="true">&times;</span></button>
+                <% if(typeof title != "undefined") { %>
+                <div class="modal-title modal-title container-fluid pop-up__h2"><%= title %></div>
+                <% } %>
+              </div>
+              <div class="modal-body">
+              <%= body %>
+              </div>
+              <div class="modal-footer pop-up__btn-cont">
+              <% if(typeof buttons == "undefined" && typeof no_close == "undefined") { %>
+              <button type="button" class="btn btn-default pop-up__btn" data-dismiss="modal">Закрыть</button>
+              <% } %>
+              <% if(typeof buttons != "undefined") { %>
+              <% buttons.forEach(function(button){ %>
+              <button type="button" class="btn pop-up__btn <%= button.cls %>"><%= button.name %></button>
+              <% }); %>
+              <% } %>
+              </div>
+            </div>
+          </div>
+        </div>
+     </script>
+</div>

@@ -1,0 +1,27 @@
+<div class="headerSocial">
+    <div class="headerSocial__wrap">
+        <div class="headerSocial__item">
+            <a href="#" class="headerSocial__link">
+                {{ readFile "static/images/svg/fb.svg" | safeHTML }}
+            </a>
+        </div>
+        <div class="headerSocial__item">
+            <a href="#" class="headerSocial__link">
+                {{ readFile "static/images/svg/instagr.svg" | safeHTML }}
+            </a>
+        </div>
+        <div class="headerSocial__item">
+            <a href="#" class="headerSocial__link">
+                {{ readFile "static/images/svg/you-tube.svg" | safeHTML }}
+            </a>
+        </div>
+    </div>
+    <div class="headerSocial__wrap headerSocial__lang">
+        {{ $currentUrl := .RelPermalink }}
+        {{ range $.Site.Home.AllTranslations }}
+            <div class="headerSocial__item">
+                <a href="{{ .Permalink }}" class="lang"><span class="lang__letter">{{ .Language.LanguageName }}</span></a>
+            </div>
+        {{ end }}
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    {{ partial "head.html" . }}
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                {{ partial "header.html" . }}
+                <main id="main">
+                    <div class="errorPage">
+                        <h1 class="errorPage__title">404 - Page Not Found</h1>
+                        <h2 class="errorPage__title"><a href="{{ "/" | relURL }}" class="errorPage__link">Go Home</a></h2>
+                    </div>
+                </main>
+            </div>
+            {{ partial "footer.html" . }}
+        </div>
+        {{ partial "scripts.html" . }}
+    </body>
+</html>
+
+

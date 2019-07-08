@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Products on Джерело</title>
+    <link>/en/prods/</link>
+    <description>Recent content in Products on Джерело</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Jun 2019 11:42:32 +0300</lastBuildDate>
+    
+	<atom:link href="/en/prods/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stabilopack</title>
+      <link>/en/prods/stabilopack/</link>
+      <pubDate>Wed, 05 Jun 2019 11:42:32 +0300</pubDate>
+      
+      <guid>/en/prods/stabilopack/</guid>
+      <description>Mauris nisi turpis, tempor et est vel, porta elementum nisi. Donec nisi ante, cursus nec scelerisque ultrices, auctor at dui. Cras convallis consectetur fermentum. Pellentesque auctor turpis ipsum, id placerat erat malesuada non. Nam nisi arcu, interdum nec pellentesque eget, feugiat vel nisl. Proin gravida turpis vel vehicula tristique. Etiam sagittis, nunc ac sagittis tincidunt, lacus lorem luctus est, sed consequat neque elit eu lorem. Sed congue semper diam, a ornare massa dapibus nec.</description>
+    </item>
+    
+  </channel>
+</rss>

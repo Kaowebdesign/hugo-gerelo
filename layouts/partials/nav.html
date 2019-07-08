@@ -1,0 +1,25 @@
+<nav class="nav" id="nav">
+    <ul class="menu">
+        {{ range .Site.Menus.nav}}
+            {{ if .HasChildren }}
+                <li class="menu__item menu_hasChild">
+                    <div class="menu__links">
+                        <a class="menu__link" href="{{ .URL }}">{{ .Name | safeHTML }}</a>
+                        <a href="#" class="menu__arrow" ></a>
+                    </div>
+                    <ul class="subMenu">
+                            {{ range .Children }}
+                                <li class="subMenu__item">
+                                    <a class="subMenu__link" href="{{ .URL }}">{{ .Name }}</a>
+                                </li>
+                            {{ end }}
+                    </ul>
+                </li> 
+            {{ else }}
+                <li class="menu__item">
+                    <a class="menu__link menu_hoverLink" href="{{ .URL }}">{{ .Name | safeHTML }}</a>
+                </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+</nav>

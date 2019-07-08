@@ -1,0 +1,20 @@
+
+{{ define "main" }}
+<div class="cards cards_padding">
+    {{ range $taxonom := .Site.Taxonomies.categories  }}
+        {{ range where $taxonom.Pages "Params.showonhomepage" true }}
+        <div class="prodCard wow animate fadeInUp">
+            <h2 class="prodCard__title">{{.Title}}</h2>
+            <div class="prodCard__img-wrap">
+                <img src="{{ $.Site.BaseURL }}/images/{{ .Params.image }}" alt="Продукты" class="prodCard__img"> 
+            </div>
+            <p class="prodCard__content">{{.Description}}
+            </p>
+            <p class="moreLink__wrap"> 
+                <a href="{{ .Permalink }}" class="moreLink">{{ $.Site.Params.morelink }}</a>
+            </p>
+        </div>
+        {{ end }}
+    {{ end }}
+</div>
+{{ end }}

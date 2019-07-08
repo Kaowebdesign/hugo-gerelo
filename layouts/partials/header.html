@@ -1,0 +1,20 @@
+<header class="header">
+    <div class="header-wrap">
+        <a href="{{ "/" | relURL }}" class="logo">
+            <img src="{{ $.Site.BaseURL }}/images/svg/logo-gerelo.svg" alt="Джерело" class="logo__img">
+        </a>
+        <div class="contacts">
+            <div class="headerContact headerContact_right">
+                <a href="mailto:info@gerelo.dp.ua" class="headerContact__mail">info@gerelo.dp.ua</a>
+                <a href="tel:380673294665"  class="headerContact__tel">+38 (067) 329-46-65</a>
+            </div>
+            {{ partial "socials.html" . }}
+        </div>
+        <div id="burgerMenu" class="menu__icon-wrap">
+            <a href="#" class="menu__burger">
+                <span class="menu__icon"></span>
+            </a>
+        </div>
+    </div>
+    {{ partial "nav.html" . }}
+</header>

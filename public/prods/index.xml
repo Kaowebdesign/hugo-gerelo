@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Продукция on Джерело</title>
+    <link>/prods/</link>
+    <description>Recent content in Продукция on Джерело</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Wed, 05 Jun 2019 09:16:32 +0300</lastBuildDate>
+    
+	<atom:link href="/prods/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ректор-пакет</title>
+      <link>/prods/rectorpack/</link>
+      <pubDate>Wed, 05 Jun 2019 09:16:32 +0300</pubDate>
+      
+      <guid>/prods/rectorpack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Крафт-пакет</title>
+      <link>/prods/kraftpack/</link>
+      <pubDate>Wed, 05 Jun 2019 09:16:14 +0300</pubDate>
+      
+      <guid>/prods/kraftpack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Плоский пакет</title>
+      <link>/prods/flat/</link>
+      <pubDate>Wed, 05 Jun 2019 09:15:34 +0300</pubDate>
+      
+      <guid>/prods/flat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Пакет подушка</title>
+      <link>/prods/cushionpack/</link>
+      <pubDate>Wed, 05 Jun 2019 09:14:42 +0300</pubDate>
+      
+      <guid>/prods/cushionpack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Пакеты с центральным швом</title>
+      <link>/prods/centralpack/</link>
+      <pubDate>Tue, 04 Jun 2019 18:16:39 +0300</pubDate>
+      
+      <guid>/prods/centralpack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Стабило пакет</title>
+      <link>/prods/stabilopack/</link>
+      <pubDate>Mon, 03 Jun 2019 16:38:27 +0300</pubDate>
+      
+      <guid>/prods/stabilopack/</guid>
+      <description>Пакеты дой-пак изготавливаются из тонких, но при этом очень прочных полимерных пленок содержащих несколько слоев материала. Как правило, пакеты дой-пак изготавливаются из 2-х - 4-слойных комбинированных материалов. Комбинация различных слоев, при изготовлении пленки под пакет дой-пак, позволяет получить нужные свойства готовой упаковки, как например сочетание высокой прочности и эластичности с малым весом упаковки.
+Преимущества упаковки в пакеты Дой-Пак:  упаковка дой-пак не подвержена рискам боя тары; пакет дой-пак имеет небольшой удельный вес тары к весу продукта; упаковка doy-pack занимает небольшой объем до и после использования; упаковка в пакет дой-пак удобна в производстве, складировании и транспортировке; пакеты doy-pack могут иметь различную оригинальную форму; возможно изготовить дой-пак пакет с застежкой zip-lock или дой-пак пакет с дозатором; пакеты дой-пак можно изготовить из материала не пропускающего солнечные лучи, влагу и запахи; реторт пакеты дой-пак позволяют производить стерилизацию и разогревать упакованный продукт в микроволновой печи; упаковка в пакеты дой-пак значительно дешевле других видов упаковки.</description>
+    </item>
+    
+    <item>
+      <title>плоский пакет</title>
+      <link>/prods/flatpack/</link>
+      <pubDate>Mon, 03 Jun 2019 16:24:10 +0300</pubDate>
+      
+      <guid>/prods/flatpack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Фильтр-пакет</title>
+      <link>/prods/filterpack/</link>
+      <pubDate>Mon, 03 Jun 2019 14:14:02 +0300</pubDate>
+      
+      <guid>/prods/filterpack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>стик-пакет</title>
+      <link>/prods/stickpack/</link>
+      <pubDate>Thu, 30 May 2019 18:04:13 +0300</pubDate>
+      
+      <guid>/prods/stickpack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Пакеты</title>
+      <link>/prods/packs/</link>
+      <pubDate>Thu, 30 May 2019 17:48:56 +0300</pubDate>
+      
+      <guid>/prods/packs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Пакеты ДОЙ-ПАК (Doy-Pack)</title>
+      <link>/prods/doypack/</link>
+      <pubDate>Thu, 30 May 2019 17:48:50 +0300</pubDate>
+      
+      <guid>/prods/doypack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>термоусадочные пакеты</title>
+      <link>/prods/termopack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/prods/termopack/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

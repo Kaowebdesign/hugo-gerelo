@@ -1,0 +1,9 @@
+<div>
+    <ul class="tablet-menu">
+        {{ range where .Site.Menus.nav ".Identifier" "in" "[prods,service,solution,contact]" }}
+            <li class="menu__item menu__item_tablet">
+                <a class="menu__link menu_hoverLink" href="{{ .URL }}">{{ .Name | safeHTML }}</a>
+            </li>
+        {{ end }}
+    </ul>
+</div>

@@ -1,0 +1,694 @@
+# baseURL = "http://kaowebdesign.github.io/"
+languageCode = "ru"
+title = "Джерело"
+DefaultContentLanguage = "ru"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params.mail]
+    mail1 = "info@gerelo.dp.ua"
+
+[params.meta]
+    # Sets the meta tag description
+    description  = "This is description"
+
+[languages]
+   
+    [languages.ru]
+        languageCode = "ru"
+        LanguageName = "ru"
+        weight = 2
+        
+    [languages.en]
+        languageCode = "en"
+        LanguageName = "en"
+        weight = 3 
+     [languages.ua]
+        languageCode = "ua"
+        LanguageName = "ua"
+        weight = 1
+
+#russian parameters
+
+    [languages.ru.params]
+        morelink = "подробнее"
+    [languages.ru.params.footer]  
+        departament = "Отдел продаж" 
+        companyName = "ООО «НПП Джерело»"
+        companyPlace = "52005, Днепр, ул. Совхозная, 54, 2-й этаж"
+        showMapButton = "Посмотреть на карте"
+        showMapLink="#linktomap"
+        copyright = "Всі права захищено."
+    [languages.ru.params.tel]
+        tel1 = "тел./факс +38 (056) 720-24-65" 
+        tel2 = "моб. +38 (067) 329-46-65"
+        tel3 = "моб. +38 (050) 023-45-43"
+    [languages.ru.params.form]
+        formCaption = "Наши менеджеры готовы ответить на любые ваши вопросы"
+        inputName = "Имя"
+        inputTextarea = "Ваш коментарий"
+        sendButton = "отправить"
+
+#english parameters
+
+    [languages.en.params]
+        morelink = "more"
+    [languages.en.params.footer]
+        departament = "Sales department" 
+        companyName = "ООО «НПП Джерело»"
+        companyPlace = "52005, Днепр, ул. Совхозная, 54, 2-й этаж"
+        showMapButton = "Show on map"
+        showMapLink="#linktomap"
+        copyright = "All right reserved"
+    [languages.en.params.tel]
+        tel1 = "tel./fax +38 (056) 720-24-65" 
+        tel2 = "mob. +38 (067) 329-46-65"
+        tel3 = "mob. +38 (050) 023-45-43"
+    [languages.en.params.form]
+        formCaption = "Our managers are ready to answer any of your questions."
+        inputName = "Name"
+        inputTextarea = "Your comment"
+        sendButton = "Send"
+
+#ukrainian parameters
+
+    [languages.ua.params]
+        morelink = "детальніше"
+    [languages.ua.params.footer]
+        departament = "Відділ продаж"
+        companyName = "ООО «НПП Джерело»"
+        companyPlace = "52005, Днепр, ул. Совхозная, 54, 2-й этаж"
+        showMapButton = "Посмотреть на карте"
+        showMapLink="#linktomap"
+        copyright = "Всі права захищено."
+    [languages.ua.params.tel]
+        tel1 = "тел./факс +38 (056) 720-24-65" 
+        tel2 = "моб. +38 (067) 329-46-65"
+        tel3 = "моб. +38 (050) 023-45-43"
+    [languages.ua.params.form]
+        formCaption = "Наші менеджери готові відповісти на будь-які ваші питання"
+        inputName = "Ім'я"
+        inputTextarea = "Ваш коментар"
+        sendButton = "Відправити"
+        
+
+# russian menu
+    [[languages.ru.menu.nav]]
+        identifier = "prods"
+        name= "Продукция"
+        url = "/prods"
+        weight = 1
+        [[languages.ru.menu.nav]]
+            parent = "prods"
+            name= "Пакет с плоским дном (flat-bottom)"
+            url = "/prods/flatpack"
+            weight = 1 
+        [[languages.ru.menu.nav]]
+            parent = "prods"
+            name= "Дой-пак пакет"
+            url = "/prods/doypack"
+            weight = 2 
+        [[languages.ru.menu.nav]]
+            parent = "prods"
+            name= "Стабило пакет"
+            url = "/prods/stabilopack"
+            weight = 3 
+        [[languages.ru.menu.nav]]
+            parent = "prods"
+            name= "Пакет с центральным швом (gusset)"
+            url = "/prods/centralpack"
+            weight = 4 
+        [[languages.ru.menu.nav]]
+            parent = "prods"
+            name= "Пакет подушка"
+            url = "/prods/cushionpack"
+            weight = 5 
+        [[languages.ru.menu.nav]]
+            parent = "prods"
+            name= "Плоский пакет"
+            url = "/prods/flat"
+            weight = 6 
+        [[languages.ru.menu.nav]]
+            parent = "prods"
+            name= "Фильтр-пакет"
+            url = "/prods/filterpack"
+            weight = 7 
+        [[languages.ru.menu.nav]]
+            parent = "prods"
+            name= "Крафт-пакет"
+            url = "/prods/kraftpack"
+            weight = 8 
+        [[languages.ru.menu.nav]]
+            parent = "prods"
+            name= "Ректор-пакет"
+            url = "/prods/rectorpack"
+            weight = 9 
+    [[languages.ru.menu.nav]]
+        identifier = "service"
+        name= "Услуги"
+        url = "/service"
+        weight = 2
+    [[languages.ru.menu.nav]]
+        identifier = "solution"
+        name= "Решения"
+        url = "/solution"
+        weight = 3
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Кофе, какао и 3 в 1"
+            url = "/solution/coffe"
+            weight = 1
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Чай"
+            url = "/solution/tea"
+            weight = 2
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Сухое молоко"
+            url = "/solution/milk"
+            weight = 3
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Спортивное питание"
+            url = "/solution/sportpit"
+            weight = 4
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Крупы"
+            url = "/solution/cereals"
+            weight = 5
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Снеки"
+            url = "/solution/snack"
+            weight = 6
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Специи"
+            url = "/solution/spice"
+            weight = 7
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Кондитерские изделия"
+            url = "/solution/pastry"
+            weight = 8
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Майонез, кетчуп, соус"
+            url = "/solution/sauce"
+            weight = 9
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Соки"
+            url = "/solution/juice"
+            weight = 10
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Семена"
+            url = "/solution/seeds"
+            weight = 11
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Сельскохозяйственная химия"
+            url = "/solution/chemistry"
+            weight = 12
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Автомобильные товары"
+            url = "/solution/autotov"
+            weight = 13
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Бытовая химия"
+            url = "/solution/household"
+            weight = 14
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Косметика"
+            url = "/solution/cosmetics"
+            weight = 15
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Мясо, рыба, сыр"
+            url = "/solution/meal"
+            weight = 16
+        [[languages.ru.menu.nav]]
+            parent = "solution"
+            name= "Сувенирный шоколад с логотипом"
+            url = "/solution/chocolate"
+            weight = 17
+    [[languages.ru.menu.nav]]
+        identifier = "info"
+        name= "Информация"
+        url = "/info"
+        weight = 4
+    [[languages.ru.menu.nav]]
+        identifier = "company"
+        name= "О компании"
+        url = "/company"
+        weight = 5
+        [[languages.ru.menu.nav]]
+            parent = "company"
+            name= "История компании"
+            url = "/company/history"
+            weight = 1
+        [[languages.ru.menu.nav]]
+            parent = "company"
+            name= "Партнеры"
+            url = "/company/partner"
+            weight = 2
+    [[languages.ru.menu.nav]]
+        identifier = "business"
+        name= "Наш бизнес"
+        url = "/business"
+        weight = 6
+        [[languages.ru.menu.nav]]
+            parent = "business"
+            name= "Фасовка хорека"
+            url = "/business/packing"
+            weight = 1
+        [[languages.ru.menu.nav]]
+            parent = "business"
+            name= "Оборудование производство"
+            url = "/business/production"
+            weight = 2
+        [[languages.ru.menu.nav]]
+            parent = "business"
+            name= "Оборудование б.у Европа"
+            url = "/business/europe"
+            weight = 3
+        [[languages.ru.menu.nav]]
+            parent = "business"
+            name= "Оборудование сервисные услуги"
+            url = "/business/serv"
+            weight = 4
+        [[languages.ru.menu.nav]]
+            parent = "business"
+            name= "Проволока"
+            url = "/business/wire"
+            weight = 5
+    [[languages.ru.menu.nav]]
+        identifier = "contact"
+        name= "Контакты"
+        url = "/contact"
+        weight = 7
+# english menu
+    [[languages.en.menu.nav]]
+        identifier = "prods"
+        name= "Продукция"
+        url = "/en/prods"
+        weight = 1
+        [[languages.en.menu.nav]]
+            parent = "prods"
+            name= "Пакет с плоским дном (flat-bottom)"
+            url = "/en/prods/flatpack"
+            weight = 1 
+        [[languages.en.menu.nav]]
+            parent = "prods"
+            name= "Дой-пак пакет"
+            url = "/en/prods/doypack"
+            weight = 2 
+        [[languages.en.menu.nav]]
+            parent = "prods"
+            name= "Стабило пакет"
+            url = "/en/prods/stabilopack"
+            weight = 3 
+        [[languages.en.menu.nav]]
+            parent = "prods"
+            name= "Пакет с центральным швом (gusset)"
+            url = "/en/prods/centralpack"
+            weight = 4 
+        [[languages.en.menu.nav]]
+            parent = "prods"
+            name= "Пакет подушка"
+            url = "/en/prods/cushionpack"
+            weight = 5 
+        [[languages.en.menu.nav]]
+            parent = "prods"
+            name= "Плоский пакет"
+            url = "/en/prods/flat"
+            weight = 6 
+        [[languages.en.menu.nav]]
+            parent = "prods"
+            name= "Фильтр-пакет"
+            url = "/en/prods/filterpack"
+            weight = 7 
+        [[languages.en.menu.nav]]
+            parent = "prods"
+            name= "Крафт-пакет"
+            url = "/en/prods/kraftpack"
+            weight = 8 
+        [[languages.en.menu.nav]]
+            parent = "prods"
+            name= "Ректор-пакет"
+            url = "/en/prods/rectorpack"
+            weight = 9 
+    [[languages.en.menu.nav]]
+        identifier = "service"
+        name= "Услуги"
+        url = "/en/service"
+        weight = 2
+    [[languages.en.menu.nav]]
+        identifier = "solution"
+        name= "Решения"
+        url = "/en/solution"
+        weight = 3
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Кофе, какао и 3 в 1"
+            url = "/en/solution/coffee"
+            weight = 1
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Чай"
+            url = "/en/solution/tea"
+            weight = 2
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Сухое молоко"
+            url = "/en/solution/milk"
+            weight = 3
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Спортивное питание"
+            url = "/en/solution/sportpit"
+            weight = 4
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Крупы"
+            url = "/en/solution/cereals"
+            weight = 5
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Снеки"
+            url = "/en/solution/snack"
+            weight = 6
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Специи"
+            url = "/en/solution/spice"
+            weight = 7
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Кондитерские изделия"
+            url = "/en/solution/pastry"
+            weight = 8
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Майонез, кетчуп, соус"
+            url = "/en/solution/sauce"
+            weight = 9
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Соки"
+            url = "/en/solution/juice"
+            weight = 10
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Семена"
+            url = "/en/solution/seeds"
+            weight = 11
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Сельскохозяйственная химия"
+            url = "/en/solution/chemistry"
+            weight = 12
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Автомобильные товары"
+            url = "/en/solution/autotov"
+            weight = 13
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Бытовая химия"
+            url = "/en/solution/household"
+            weight = 14
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Косметика"
+            url = "/en/solution/cosmetics"
+            weight = 15
+        [[languages.en.menu.nav]]
+            parent = "solution"
+            name= "Мясо, рыба, сыр"
+            url = "/en/solution/meal"
+            weight = 16
+    [[languages.en.menu.nav]]
+        identifier = "info"
+        name= "Информация"
+        url = "/en/info"
+        weight = 4
+    [[languages.en.menu.nav]]
+        identifier = "company"
+        name= "О компании"
+        url = "/en/company"
+        weight = 5
+        [[languages.en.menu.nav]]
+            parent = "company"
+            name= "История компании"
+            url = "/en/company/history"
+            weight = 1
+        [[languages.en.menu.nav]]
+            parent = "company"
+            name= "Партнеры"
+            url = "/en/company/partner"
+            weight = 2
+    [[languages.en.menu.nav]]
+        identifier = "business"
+        name= "Наш бизнес"
+        url = "/en/business"
+        weight = 6
+        [[languages.en.menu.nav]]
+            parent = "business"
+            name= "Фасовка хорека"
+            url = "/en/business/packing"
+            weight = 1
+        [[languages.en.menu.nav]]
+            parent = "business"
+            name= "Оборудование производство"
+            url = "/en/business/production"
+            weight = 2
+        [[languages.en.menu.nav]]
+            parent = "business"
+            name= "Оборудование б.у Европа"
+            url = "/en/business/europe"
+            weight = 3
+        [[languages.en.menu.nav]]
+            parent = "business"
+            name= "Оборудование сервисные услуги"
+            url = "/en/business/serv"
+            weight = 4
+        [[languages.en.menu.nav]]
+            parent = "business"
+            name= "Проволока"
+            url = "/en/business/wire"
+            weight = 5
+    [[languages.en.menu.nav]]
+        identifier = "contact"
+        name= "Контакты"
+        url = "/en/contact"
+        weight = 7
+
+# ukrain menu
+    [[languages.ua.menu.nav]]
+        identifier = "prods"
+        name= "Продукция"
+        url = "/ua/prods"
+        weight = 1
+        [[languages.ua.menu.nav]]
+            parent = "prods"
+            name= "Пакет с плоским дном (flat-bottom)"
+            url = "/ua/prods/flatpack"
+            weight = 1 
+        [[languages.ua.menu.nav]]
+            parent = "prods"
+            name= "Дой-пак пакет"
+            url = "/ua/prods/doypack"
+            weight = 2 
+        [[languages.ua.menu.nav]]
+            parent = "prods"
+            name= "Стабило пакет"
+            url = "/ua/prods/stabilopack"
+            weight = 3 
+        [[languages.ua.menu.nav]]
+            parent = "prods"
+            name= "Пакет с центральным швом (gusset)"
+            url = "/ua/prods/centralpack"
+            weight = 4 
+        [[languages.ua.menu.nav]]
+            parent = "prods"
+            name= "Пакет подушка"
+            url = "/ua/prods/cushionpack"
+            weight = 5 
+        [[languages.ua.menu.nav]]
+            parent = "prods"
+            name= "Плоский пакет"
+            url = "/ua/prods/flat"
+            weight = 6 
+        [[languages.ua.menu.nav]]
+            parent = "prods"
+            name= "Фильтр-пакет"
+            url = "/ua/prods/filterpack"
+            weight = 7 
+        [[languages.ua.menu.nav]]
+            parent = "prods"
+            name= "Крафт-пакет"
+            url = "/ua/prods/kraftpack"
+            weight = 8 
+        [[languages.ua.menu.nav]]
+            parent = "prods"
+            name= "Ректор-пакет"
+            url = "/ua/prods/rectorpack"
+            weight = 9 
+    [[languages.ua.menu.nav]]
+        identifier = "service"
+        name= "Услуги"
+        url = "/ua/service"
+        weight = 2
+    [[languages.ua.menu.nav]]
+        identifier = "solution"
+        name= "Решения"
+        url = "/ua/solution"
+        weight = 3
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Кофе, какао и 3 в 1"
+            url = "/ua/solution/coffee"
+            weight = 1
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Чай"
+            url = "/ua/solution/tea"
+            weight = 2
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Сухое молоко"
+            url = "/ua/solution/milk"
+            weight = 3
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Спортивное питание"
+            url = "/ua/solution/sportpit"
+            weight = 4
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Крупы"
+            url = "/ua/solution/cereals"
+            weight = 5
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Снеки"
+            url = "/ua/solution/snack"
+            weight = 6
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Специи"
+            url = "/ua/solution/spice"
+            weight = 7
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Кондитерские изделия"
+            url = "/ua/solution/pastry"
+            weight = 8
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Майонез, кетчуп, соус"
+            url = "/ua/solution/sauce"
+            weight = 9
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Соки"
+            url = "/ua/solution/juice"
+            weight = 10
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Семена"
+            url = "/ua/solution/seeds"
+            weight = 11
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Сельскохозяйственная химия"
+            url = "/ua/solution/chemistry"
+            weight = 12
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Автомобильные товары"
+            url = "/ua/solution/autotov"
+            weight = 13
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Бытовая химия"
+            url = "/ua/solution/household"
+            weight = 14
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Косметика"
+            url = "/ua/solution/cosmetics"
+            weight = 15
+        [[languages.ua.menu.nav]]
+            parent = "solution"
+            name= "Мясо, рыба, сыр"
+            url = "/ua/solution/meal"
+            weight = 16
+    [[languages.ua.menu.nav]]
+        identifier = "info"
+        name= "Информация"
+        url = "/ua/info"
+        weight = 4
+    [[languages.ua.menu.nav]]
+        identifier = "company"
+        name= "О компании"
+        url = "/ua/company"
+        weight = 5
+        [[languages.ua.menu.nav]]
+            parent = "company"
+            name= "История компании"
+            url = "/ua/company/history"
+            weight = 1
+        [[languages.ua.menu.nav]]
+            parent = "company"
+            name= "Партнеры"
+            url = "/ua/company/partner"
+            weight = 2
+    [[languages.ua.menu.nav]]
+        identifier = "business"
+        name= "Наш бизнес"
+        url = "/ua/business"
+        weight = 6
+        [[languages.ua.menu.nav]]
+            parent = "business"
+            name= "Фасовка хорека"
+            url = "/ua/business/packing"
+            weight = 1
+        [[languages.ua.menu.nav]]
+            parent = "business"
+            name= "Оборудование производство"
+            url = "/ua/business/production"
+            weight = 2
+        [[languages.ua.menu.nav]]
+            parent = "business"
+            name= "Оборудование б.у Европа"
+            url = "/ua/business/europe"
+            weight = 3
+        [[languages.ua.menu.nav]]
+            parent = "business"
+            name= "Оборудование сервисные услуги"
+            url = "/ua/business/serv"
+            weight = 4
+        [[languages.ua.menu.nav]]
+            parent = "business"
+            name= "Проволока"
+            url = "/ua/business/wire"
+            weight = 5
+    [[languages.ua.menu.nav]]
+        identifier = "contact"
+        name= "Контакты"
+        url = "/ua/contact"
+        weight = 7
+        
+
+
+
